@@ -1,22 +1,19 @@
 {
   "expo": {
-    "name": "FilmBuddy_",
-    "slug": "FilmBuddy_",
+    "name": "FilmBuddy",
+    "slug": "FilmBuddy",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "filmbuddy",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nyshtaaa.FilmBuddy"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.nyshtaaa.FilmBuddy"
     },
     "web": {
       "bundler": "metro",
@@ -28,15 +25,22 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "307923c1-eca7-45e8-b39a-cf5330230ea1"
+      }
+    },
+    "owner": "nyshtaaa"
   }
 }
