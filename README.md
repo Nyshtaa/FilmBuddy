@@ -36,3 +36,11 @@ git clone https://github.com/Nyshtaa/FilmBuddy.git
 cd FilmBuddy
 npm install
 npx expo start
+
+## 📸 Screenshots
+
+### 🏠 Home Screen
+![Home Screen](assets/screenshots/інтерфейс1.png)
+
+### 🎬 Movie Details
+![Movie Details](assets/screenshots/інтерфейс2.png)
