@@ -39,8 +39,8 @@ npx expo start
 
 ## 📸 Screenshots
 
-### 🏠 Home Screen
-![Home Screen](assets/screenshots/інтерфейс1.png)
+### 🏠 Example
+![Home Screen](assets/screenshots/example1.png)
 
-### 🎬 Movie Details
-![Movie Details](assets/screenshots/інтерфейс2.png)
+### 🎬 Example
+![Movie Details](assets/screenshots/example2.png)
