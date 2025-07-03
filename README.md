@@ -1,50 +1,46 @@
-# Welcome to your Expo app 👋
+# 🎬 FilmBuddy
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**FilmBuddy** is a mobile movie recommendation app built with React Native, Expo, and Firebase. It fetches real-time data from the TMDb API and allows users to rate, review, and organize movies into personal lists.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- 🔐 User registration and login (Firebase Authentication)
+- 📊 Smart movie recommendations (custom algorithm)
+- 📝 User reviews with replies, likes, and dislikes
+- ❤️ Favorite movies
+- 👁️ Watched list
+- ⏳ Watch later list
+- 🔍 Search by title or genre
+- 🎲 Random movie selection
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
 
-2. Start the app
+- **React Native + Expo**
+- **Firebase Authentication & Firestore**
+- **TypeScript**
+- **TMDb (The Movie Database) API**
+- **React Navigation**
 
-   ```bash
-   npx expo start
-   ```
+## 🧠 Recommendation Algorithm
 
-In the output, you'll find options to open the app in a
+The recommendation system considers:
+- Genres from favorite and watched movies
+- User review content
+- Movie ratings and popularity
+- Recency and watch history
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 📦 Installation
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/Nyshtaa/FilmBuddy.git
+cd FilmBuddy
+npm install
+npx expo start
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📸 Screenshots
 
-## Learn more
+### 🏠 Home Screen
+![Home Screen](assets/screenshots/інтерфейс1.png)
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 🎬 Movie Details
+![Movie Details](assets/screenshots/інтерфейс2.png)
