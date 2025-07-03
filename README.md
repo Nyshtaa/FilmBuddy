@@ -29,6 +29,14 @@ The recommendation system considers:
 - Movie ratings and popularity
 - Recency and watch history
 
+## 📸 Screenshots
+
+### 🏠 Example
+![Home Screen](assets/screenshots/example1.png)
+
+### 🎬 Example
+![Movie Details](assets/screenshots/example2.png)
+
 ## 📦 Installation
 
 ```bash
@@ -37,10 +45,4 @@ cd FilmBuddy
 npm install
 npx expo start
 
-## 📸 Screenshots
 
-### 🏠 Example
-![Home Screen](assets/screenshots/example1.png)
-
-### 🎬 Example
-![Movie Details](assets/screenshots/example2.png)
