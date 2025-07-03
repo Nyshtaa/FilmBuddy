@@ -10,7 +10,10 @@ web-build/
 expo-env.d.ts
 
 # Native
+<<<<<<< HEAD
 .kotlin/
+=======
+>>>>>>> b7c0f81b179cd689e53e6efc338bb3625fa6efd9
 *.orig.*
 *.jks
 *.p8
@@ -37,3 +40,6 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+
+config/
